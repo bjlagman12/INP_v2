@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   mode: 'development',
@@ -7,7 +7,7 @@ module.exports = {
     path: path.join(__dirname, '/public/dist'),
     filename: 'bundle.js'
   },
-  module: {
+  module:{
     rules: [
       {
         test: /(.js$|.jsx$)/,
@@ -20,12 +20,14 @@ module.exports = {
         }
       },
       {
-        test: /.css$/,
+        test: /\.css$/,
         use: ['style-loader', 'css-loader']
       }
     ]
   },
   resolve: {
-    extension: ['.jsx', '.js', '.css']
+    extensions: ['.jsx' , '.js', '.css']
   }
-};
+
+
+}
