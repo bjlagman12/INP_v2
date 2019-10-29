@@ -1,5 +1,21 @@
 .nav-container{
   border: 2px red solid;
+  /* display: grid;
+  grid-template-columns: 2fr 1fr; */
+}
+
+.shortcuts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.shortcuts li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  float: right;
 }
 
 .home-container{
