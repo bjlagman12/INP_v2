@@ -1,17 +1,26 @@
 body {
   font-family: CircularPro-Bold,sans-serif;
-
+  margin: 0;
 }
 
 .nav-container {
-  border: 2px red solid;
+  /* border: 2px red solid; */
+  padding: 0rem 27rem;
+  background-color: transparent;
+  box-shadow: 0px 1px 20px 0px #878787;
+  font-size: 23px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
 }
 
 .shortcuts {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  padding: 1rem 0rem 1rem 0rem;
   overflow: hidden;
+  /* margin: 15px; */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .shortcuts li {
@@ -22,18 +31,16 @@ body {
 }
 
 .home-container {
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   height: 40rem;
   overflow: hidden;
 }
 
 .mySlides {
   position: relative;
-  width: 100%;
-  border: 1px solid red;
-  /* white-space: nowrap;
-  text-align: center; */
-  /* margin: 1em 0; */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  margin: 0rem 20rem;
   height: 100%;
 
 }
@@ -45,50 +52,71 @@ body {
 }
 
 img {
-  /* vertical-align: middle;
-  max-width: -webkit-fill-available;
-  max-height: -webkit-fill-available;  */
-  /* height: 50%;*/
+  /* height: 50%; */
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
+  filter: grayscale(100%);
+  width: 85%;
 }
 
 .captions1 {
   position: absolute;
-  top: 8px;
-  left: 16px;
-  border: solid 1px red;
+  top: 6rem;
+  left: 10rem;
+  /* border: solid 1px red; */
   word-wrap: break-word;
-  width: 25em;
+  width: 10em;
+  /* min-width: 5em; */
+  font-size: 3rem;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  color: white;
 }
 
 .captions2 {
-  position: absolute;
+  /* position: absolute;
   bottom: 8px;
   right: 16px;
   border: solid 1px red;
   word-wrap: break-word;
   width: 25em;
+
+  /* min-width: 5em; */
+  font-size: 3rem;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  color: white; */
 }
 
 .captions3 {
   position: absolute;
-  top: 8px;
-  right: 16px;
-  border: solid 1px red;
+  top: 3rem;
+  right: 9rem;
+  /* border: solid 1px red; */
   word-wrap: break-word;
-  width: 25em;
+  width: 6em;
+  /* min-width: 5em; */
+  font-size: 3rem;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  color: white;
 }
 
 .captions4 {
-  position: absolute;
+  /* position: absolute;
   bottom: 8px;
   left: 16px;
   border: solid 1px red;
   word-wrap: break-word;
   width: 25em;
+
+  /* min-width: 5em; */
+  font-size: 3rem;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  color: white; */
 }
 
 .mission-container {
