@@ -1,7 +1,10 @@
-.nav-container{
+body {
+  font-family: CircularPro-Bold,sans-serif;
+
+}
+
+.nav-container {
   border: 2px red solid;
-  /* display: grid;
-  grid-template-columns: 2fr 1fr; */
 }
 
 .shortcuts {
@@ -18,18 +21,84 @@
   float: right;
 }
 
-.home-container{
-  border: 2px blue solid;
+.home-container {
+  border: 1px blue solid;
+  height: 40rem;
+  overflow: hidden;
 }
 
-.mission-container{
+.mySlides {
+  position: relative;
+  width: 100%;
+  border: 1px solid red;
+  /* white-space: nowrap;
+  text-align: center; */
+  /* margin: 1em 0; */
+  height: 100%;
+
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+img {
+  /* vertical-align: middle;
+  max-width: -webkit-fill-available;
+  max-height: -webkit-fill-available;  */
+  /* height: 50%;*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.captions1 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  border: solid 1px red;
+  word-wrap: break-word;
+  width: 25em;
+}
+
+.captions2 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  border: solid 1px red;
+  word-wrap: break-word;
+  width: 25em;
+}
+
+.captions3 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  border: solid 1px red;
+  word-wrap: break-word;
+  width: 25em;
+}
+
+.captions4 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  border: solid 1px red;
+  word-wrap: break-word;
+  width: 25em;
+}
+
+.mission-container {
   border: 2px rgb(0, 187, 255) solid;
 }
 
-.nutrition-container{
+.nutrition-container {
   border: 2px green solid;
 }
 
-.performance-container{
+.performance-container {
   border: 2px rgb(191, 122, 3) solid;
 }
