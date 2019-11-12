@@ -1,17 +1,14 @@
 body {
-  font-family: CircularPro-Bold,sans-serif;
+  font-family: CircularPro-Bold, sans-serif;
   margin: 0;
   color: #303030;
 }
-
 
 /*  ----------nav bar-------------- */
 
 .navbar {
   font-size: 18px;
-  /* background-image: linear-gradient(260deg, #1a7618ee 0%, #0000008e 100%); */
   box-shadow: 0px 3px 8px #0000008f;
-  /* box-shadow: box-shadow: 0px 3px 8px #0000008f; */
 }
 
 .main-nav {
@@ -106,13 +103,7 @@ body {
   }
 }
 
-/*  ----------nav bar-------------- */
-
-
-
-
 /*  ----------jumbo picture -------------- */
-
 
 .home-container {
   height: 40rem;
@@ -124,7 +115,7 @@ body {
   height: 100%;
 }
 
-img {
+img.home-pic {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -145,7 +136,6 @@ img {
   color: white;
 }
 
-
 .captions3 {
   position: absolute;
   top: 3rem;
@@ -160,27 +150,25 @@ img {
 
 @media screen and (max-width: 700px) {
   .home-container {
-    height: 20rem;
+    height: 28rem;
   }
 }
 
 /*  ----------jumbo picture -------------- */
 
-
 .body {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* max-width: 50rem; */
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
-
 
 /*  ----------our services-------------- */
 
 .header {
   text-align: center;
   font-size: 40px;
-  padding: 0px 0px 30px 0px;
-  font-weight: 600;
+  padding: 0px 0px 20px 0px;
+  font-weight: 500;
   letter-spacing: 2px;
   font-variant-caps: all-petite-caps;
 }
@@ -188,16 +176,38 @@ img {
 .all-services {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+}
+
+.services {
+  height: 30rem;
+  display: grid;
+  align-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .all-services {
+    flex-wrap: wrap;
+    width: 30rem;
+  }
+  .mission-container {
+    /* padding: 3rem;
+    margin: 2rem 0rem 2rem 0rem; */
+
+    background-color: black;
+  }
 }
 
 .service {
   text-align: center;
-  width: 10rem;
+  width: 7rem;
   min-width: 10rem;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px #aeaeae;
-  margin: 25px;
+  padding: 25px;
+  /* border-radius: 5px; */
+  /* box-shadow: 2px 2px 5px #aeaeae; */
+  margin: 14px;
+  background-color: #fafafa;
+  /* border: 1px solid #d1d1d1; */
 }
 
 .icon-service {
@@ -205,36 +215,49 @@ img {
   padding: 20px;
 }
 
-
 .service-header {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 0px 0px 5px 0px;
   font-variant-caps: all-small-caps;
 }
 
 .service-content {
   color: #6a6a6a;
+  line-height: 23px;
+  word-spacing: 1px;
 }
 
-.far.fa-star ,
+.far.fa-star,
 .fas.fa-pizza-slice,
 .fas.fa-dumbbell,
-.fas.fa-user-friends{
+.fas.fa-user-friends {
   margin: 0;
   font-size: 40px;
 }
 
-/*  ----------our services-------------- */
-
+/*  ---------- Mission -------------- */
 
 .mission-container {
-  color: #272727;
-  padding: 35px;
+  /* margin: 3rem 0rem 0rem 0rem; */
   display: grid;
-  border-radius: 11px;
-  border: 1px #a6a6a6 solid;
-  box-shadow: 3px 3px 7px 0px #8f8f8f;
+  /* border: 1px #a6a6a6 solid; */
+  background-color: #e8e8e8;
+  justify-content: center;
+  height: 30rem;
+  align-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .mission-container {
+    padding: 3rem;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+}
+
+.mission-center {
+  width: 50rem;
+  justify-content: center;
 }
 
 .mission-header {
@@ -251,9 +274,49 @@ img {
   display: grid;
   font-size: 20px;
   font-weight: 100;
-  line-height: 40px;
+  line-height: 35px;
   text-align: center;
+  color: #6a6a6a;
 }
+
+/*  ---------- Info -------------- */
+
+
+.each-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-cell {
+  padding: 6rem 5rem 5rem 5rem;
+  display: grid;
+  align-content: center;
+}
+
+.info-header {
+  font-size: 40px;
+  padding: 0px 0px 35px 0px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-variant-caps: all-petite-caps;
+}
+
+.info-cell-content {
+  font-size: 20px;
+}
+
+.info-cell-img {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.info-cell-img img {
+  width: 100%;
+}
+
+
+
 
 .nutrition-container {
   border: 2px green solid;
