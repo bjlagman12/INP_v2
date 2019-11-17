@@ -312,7 +312,8 @@ img.home-pic {
 }
 
 .info-cell-img img {
-  width: 100%;
+  width: 120%;
+  -webkit-transform: translateY(-10%) translateX(-10%);
 }
 
 
